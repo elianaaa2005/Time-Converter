@@ -88,5 +88,5 @@ while loopCode == True:
     time.sleep(2)
     input("Press enter to continue:")
     print("")
-    os.system('cls')
+    os.system('cls' if os.name == 'nt' else 'clear')
 #end of code
